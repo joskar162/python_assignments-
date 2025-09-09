@@ -1,10 +1,10 @@
-import os
 import requests
+import os
 from urllib.parse import urlparse
 
 def fetch_image():
     # Prompt user for URL
-    url = input("week 6\screenshot.png ").strip()
+    url = input("enter the  image link").strip()
 
     # Create directory if it doesn't exist
     folder = "Fetched_Images"
